@@ -59,10 +59,16 @@
         data: function() {
             return {
                 images: [],
-                desired_images: 10
+                desired_images: 10,
+                allowed_deviation_from_square: 0.01,
             }
         },
         methods: {
+            is_approximately_square: function(x, y) {
+                var ratio = x / y;
+                var deviation = Math.abs(1 - ratio);
+                return deviation < this.allowed_deviation_from_square;
+            },
             update_images: function() {
                 jQuery.ajax('https://instagram.com/nicktheandersen').done((response) => {
                     response = response.replace(/\n/g,' ');
@@ -75,8 +81,14 @@
 					edges.shuffle();
 					edges.forEach( (edge) => {
                         if (this.images.length < this.desired_images ) {
-                            if (edge.node.dimensions.height > 1070 && edge.node.dimensions.height < 1090)
-                            this.images.push(edge.node.display_url);
+                            var height = edge.node.dimensions.height;
+                            var width = edge.node.dimensions.width;
+                            if (this.is_approximately_square(height, width) ) {
+                                this.images.push(edge.node.display_url);
+                            } else {
+                                console.log("Did not use " + edge.node.display_url + " (" + height + " x " + width + ")");
+                            }
+
                         }
                     });
                 })
