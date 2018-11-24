@@ -35,7 +35,13 @@
 		template: `<div>
         <br>
         <br>
-        <p>Nick Andersen is a radio producer living in Cambridge, MA.</p>
+        <p>Nick Andersen is an audio producer living in Cambridge, MA.</p>
+    
+        <p>He produces the Webby Award-winning <a href="https://www.pbs.org/wgbh/masterpiece/podcasts/">MASTERPIECE Studio podcast</a> for the long-running PBS telelvision drama, MASTERPIECE, and is also the senior producer of <a href="https://www.ministryofideas.org/">
+        Ministry of Ideas</a>, a founding member of the <a href="https://www.hubspokeaudio.org/">Hub & Spoke Podcast Collective.</a></p>
+        <p>Previously, he was a producer for the WBUR and NPR talk show, <a href="http://www.wbur.org/onpoint">On Point Radio.</a></p>
+        <p>A 2012 graduate of the University of North Carolina at Chapel Hill, he is a proud native of the Metro Detroit region.</p>
+        <p>Contact him at nkandersen AT gmail DOT com.</p>
         <br>
         <router-link class='nav' to="/">back</router-link>
 		</div>`
