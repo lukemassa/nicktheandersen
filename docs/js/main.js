@@ -60,6 +60,7 @@
         <p align='right'>
 		<a href="https://twitter.com/nicktheandersen" target="_blank" ><img class="theicons" title="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" alt="Twitter" width="35" height="35" scale="0"></a>
 		<a href="https://instagram.com/nicktheandersen" target="_blank"><img class="theicons" title="Instagram" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram1.png" alt="Instagram" width="35" height="35" scale="0"></a>
+		<a href="https://www.linkedin.com/in/nick-andersen-61661963" target="_blank"><img class="theicons" title="Instagram" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin1.png" alt="Linkedin" width="35" height="35" scale="0"></a>
         </p>
 		</div>
         </div>
