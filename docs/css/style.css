@@ -40,7 +40,6 @@ a.nav:visited {
 .instaimg {
     display: inline;
     float: left;
-    width: 10%;
     padding-top: 0%;
     min-width:1px;
 }

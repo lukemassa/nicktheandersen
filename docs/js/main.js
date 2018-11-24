@@ -54,7 +54,7 @@
         <div class="middlestuff">
         <div class='icons'><router-link class='nav' to="/about">about</router-link></p></div>
         <div class='home'>
-        <div v-for="i in images"><img class='instaimg' v-bind:src="i"></div>
+        <div v-for="i in images"><img class='instaimg' v-bind:style="i['style']" v-bind:src="i['url']"></div>
         </div>
 		<div class="icons">
         <p align='right'>
@@ -68,16 +68,27 @@
         data: function() {
             return {
                 images: [],
-                desired_images: 10,
+                desired_images: this.determine_desired_images(),
                 allowed_deviation_from_square: 0.01,
                 wait_for_backfill: 1000,
             }
         },
         methods: {
+            determine_desired_images: function() {
+                // Probably better place/way to do this
+                if (screen.width < 400) {
+                    return 4;
+                }
+                return 10;
+            },
             is_approximately_square: function(x, y) {
                 var ratio = x / y;
                 var deviation = Math.abs(1 - ratio);
                 return deviation < this.allowed_deviation_from_square;
+            },
+            image_object: function(url) {
+                var style = 'width:' + 100 / this.desired_images + '%';
+                return {"url":url, "style":style}
             },
             update_images: function() {
                 jQuery.ajax('https://instagram.com/nicktheandersen').done((response) => {
@@ -93,8 +104,9 @@
                         if (this.images.length < this.desired_images ) {
                             var height = edge.node.dimensions.height;
                             var width = edge.node.dimensions.width;
+
                             if (this.is_approximately_square(height, width) ) {
-                                this.images.push(edge.node.display_url);
+                                this.images.push(this.image_object(edge.node.display_url))
                             } else {
                                 console.log("Did not use " + edge.node.display_url + " (" + height + " x " + width + ")");
                             }
@@ -111,7 +123,7 @@
 
                 default_nums.forEach( (i) => {
                     if (this.images.length < this.desired_images) {
-                        this.images.push("/img/fallback_" + i + ".jpg");
+                        this.images.push(this.image_object("/img/fallback_" + i + ".jpg"))
                     }
                 });
 
