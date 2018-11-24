@@ -61,6 +61,7 @@
                 images: [],
                 desired_images: 10,
                 allowed_deviation_from_square: 0.01,
+                wait_for_backfill: 1000,
             }
         },
         methods: {
@@ -115,7 +116,7 @@
             // the format of their page such that the parsing of urls breaks.
             setTimeout(function() {
                     this.backfill_images();
-            }.bind(this), 3000);
+            }.bind(this), this.wait_for_backfill);
             //this.update_images();
         }
     })
