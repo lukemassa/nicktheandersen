@@ -102,7 +102,7 @@
 
                 default_nums.forEach( (i) => {
                     if (this.images.length < this.desired_images) {
-                        this.images.push("/img/fallback_" + i + ".img");
+                        this.images.push("/img/fallback_" + i + ".jpg");
                     }
                 });
 
