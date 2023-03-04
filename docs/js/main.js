@@ -39,7 +39,7 @@
     
         <p>He produces the Webby Award-winning <a href="https://www.pbs.org/wgbh/masterpiece/podcasts/">MASTERPIECE Studio podcast</a> for the long-running PBS telelvision drama, MASTERPIECE, and is also the senior producer of <a href="https://www.ministryofideas.org/">
         Ministry of Ideas</a>, a founding member of the <a href="https://www.hubspokeaudio.org/">Hub & Spoke Podcast Collective.</a></p>
-        <p>Previously, he was a producer for the WBUR and NPR talk show, <a href="http://www.wbur.org/onpoint">On Point Radio.</a></p>
+        <p>Previously, he was a producer for the WBUR and NPR talk show, <a href="http://www.wbur.org/onpoint">On Point Radio</a>.</p>
         <p>A 2012 graduate of the University of North Carolina at Chapel Hill, he is a proud native of the Metro Detroit region.</p>
         <p>You can read his undergraduate thesis on mid-20th Century American opera history, "Too Real To Be Funny," <a href="/img/AndersenThesisFinal.pdf">here.</a></p>
         <p>Contact him at nkandersen AT gmail DOT com.</p>
