@@ -43,7 +43,7 @@
         <p>A 2012 graduate of the University of North Carolina at Chapel Hill, he is a proud native of the Metro Detroit region.</p>
         <p>You can read his undergraduate thesis on mid-20th Century American opera history, "Too Real To Be Funny," <a href="/img/AndersenThesisFinal.pdf">here</a>.</p>
         <p>Contact him at nkandersen AT gmail DOT com.</p>
-        <p>You can read his resume <a href="/img/NickAndersen_CV2018.pdf">here</a>.</p>
+        <p>You can read his resume <a href="/img/NickAndersen_CV2024.pdf">here</a>.</p>
         <br>
         <router-link class='nav' to="/">back</router-link>
 		</div>`
