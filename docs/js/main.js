@@ -37,13 +37,14 @@
         <br>
         <p>Nick Andersen is an audio producer living in Cambridge, MA.</p>
     
-        <p>He is the archives producer for <a href="https://www.npr.org/programs/fresh-air/"> NPR's Fresh Air with Terry Gross</a> and is also the senior producer of <a href="https://www.ministryofideas.org/">
-        Ministry of Ideas</a>, a founding member of the <a href="https://www.hubspokeaudio.org/">Hub & Spoke Podcast Collective.</a></p>
-        <p>Previously, he was producer of the Webby award-winning <a href="https://www.pbs.org/wgbh/masterpiece/podcasts/">MASTERPIECE Studio podcast</a> for the long-running PBS telelvision drama, MASTERPIECE, and producer for the WBUR and NPR talk show, <a href="http://www.wbur.org/onpoint">On Point Radio</a>.</p>
+        <p>He is the senior producer of <a href="https://www.ministryofideas.org/">
+        Ministry of Ideas</a>, a founding member of the <a href="https://www.hubspokeaudio.org/">Hub & Spoke Podcast Collective</a>, for which he also a board member.</p>
+
+        <p>Previously, he was the first ever archives producer for <a href="https://www.npr.org/programs/fresh-air/"> NPR's Fresh Air with Terry Gross and Tonya Mosley</a>, producer of the Webby and Signal award-winning <a href="https://www.pbs.org/wgbh/masterpiece/podcasts/">MASTERPIECE Studio podcast</a> for the long-running PBS telelvision drama, MASTERPIECE, and a producer for the WBUR and NPR talk show, <a href="http://www.wbur.org/onpoint">On Point Radio</a>.</p>
         <p>A 2012 graduate of the University of North Carolina at Chapel Hill, he is a proud native of the Metro Detroit region.</p>
         <p>You can read his undergraduate thesis on mid-20th Century American opera history, "Too Real To Be Funny," <a href="/img/AndersenThesisFinal.pdf">here</a>.</p>
         <p>Contact him at nkandersen AT gmail DOT com.</p>
-        <p>You can read his resume <a href="/img/NickAndersen_CV2024.pdf">here</a>.</p>
+        <p>You can read his resume <a href="/img/NickAndersen_CV2025.pdf">here</a>.</p>
         <br>
         <router-link class='nav' to="/">back</router-link>
 		</div>`
